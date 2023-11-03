@@ -1,5 +1,8 @@
 import React from 'react'
 import './Services.scss'
+import carwashIcon from '../../../assets/icons/carwash.png'
+import operatorIcon from '../../../assets/icons/operator.png'
+import steeringwheelIcon from '../../../assets/icons/steeringwheel.png'
 
 function Services() {
   return (
@@ -10,7 +13,7 @@ function Services() {
           <h1>Quick & easy car rental</h1>
           <div className="services__container">
             <div className="services-columns">
-              <img src="/src/assets/icons/carwash.png" alt="" />
+              <img src={carwashIcon} alt="car wash icon" />
              
               <h2>Select Car</h2>
               <p>
@@ -19,7 +22,7 @@ function Services() {
               </p>
             </div>
             <div className="services-columns">
-              <img src="/src/assets/icons/operator.png" alt="" />
+              <img src={operatorIcon} alt="operator icon" />
               <h2>Contact Operator</h2>
               <p>
                 Our knowledgeable and friendly operators are always ready to help
@@ -27,7 +30,7 @@ function Services() {
               </p>
             </div>
             <div className="services-columns">
-              <img src="/src/assets/icons/steeringwheel.png" alt="" />
+              <img src={steeringwheelIcon} alt="steering wheel icon" />
               <h2>Let's Drive</h2>
               <p>
                 Whether you're hitting the open road, we've got you covered with our

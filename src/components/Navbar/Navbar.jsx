@@ -34,27 +34,27 @@ const Navbar = () => {
 
                     <div className='navbar__mobileLinks' onClick={() => handleHamburger()} style={{transform: `translateX(${activate -100}vw)`, transition:'1s ease all'}}>
                         <Link to="/">Home</Link>
-                        <Link to="/about/">About</Link>
-                        <Link to="/VehicleModels/">Vehicle Models</Link>
-                        <Link to="/Testimonials/">Testimonials</Link>
-                        <Link to="/OurTeam/">Our Team</Link>
-                        <Link to="/Contact/">Contact</Link>
-                        <Link to="">Sign In</Link>
-                        <Link to="/register">Register</Link>
+                        <Link to="/">About</Link>
+                        <Link to="/">Vehicle Models</Link>
+                        <Link to="/">Testimonials</Link>
+                        <Link to="/">Our Team</Link>
+                        <Link to="/">Contact</Link>
+                        <Link to="/">Sign In</Link>
+                        <Link to="/">Register</Link>
                     </div>
 
                     <div className="navbar__links">
                         <Link to="/">Home</Link>
-                        <Link to="/about/">About</Link>
-                        <Link to="/VehicleModels/">Vehicle Models</Link>
-                        <Link to="/Testimonials/">Testimonials</Link>
-                        <Link to="/OurTeam/">Our Team</Link>
-                        <Link to="/Contact/">Contact</Link>
+                        <Link to="/">About</Link>
+                        <Link to="/">Vehicle Models</Link>
+                        <Link to="/">Testimonials</Link>
+                        <Link to="/">Our Team</Link>
+                        <Link to="/">Contact</Link>
                     </div>
 
                     <div className="navbar__buttons">
                             <Link to="">Sign In</Link>
-                            <Link to="/register" className='button'>Register</Link>
+                            <Link to="/" className='button'>Register</Link>
                     </div>
                 </div>
             </div>

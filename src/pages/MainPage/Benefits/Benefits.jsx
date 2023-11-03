@@ -1,6 +1,9 @@
 import React from 'react'
 import './Benefits.scss'
 import { Link } from 'react-router-dom'
+import carwashIcon from '../../../assets/icons/carwash.png'
+import operatorIcon from '../../../assets/icons/operator.png'
+import steeringwheelIcon from '../../../assets/icons/steeringwheel.png'
 
 function Benefits() {
   return (
@@ -23,7 +26,7 @@ function Benefits() {
 
           <div className="benefits__content-2">
             <div className="benefits__panel">
-              <img src="/src/assets/icons/carwash.png" alt="car wash icon"></img>
+              <img src = {carwashIcon} alt="car wash icon"></img>
               <div className="benefits__panel-text">
                 <h4>Cross Country Drive</h4>
                 <p>
@@ -36,7 +39,7 @@ function Benefits() {
 
 
             <div className="benefits__panel">
-              <img src="/src/assets/icons/operator.png" alt="operator icon"/>
+              <img src = {operatorIcon} alt="operator icon"/>
               <div className="benefits__panel-text">
                 <h4>All Inclusive Pricing</h4>
                 <p>
@@ -46,16 +49,16 @@ function Benefits() {
               </div>
             </div>
 
-                    <div className="benefits__panel">
-                    <img src="/src/assets/icons/steeringwheel.png" alt="steering wheel icon"/>
-                    <div className="benefits__panel-text">
-                        <h4>No Hidden Charges</h4>
-                        <p>
-                        Enjoy peace of mind with our no hidden charges. We believe in
-                        transparent and honest pricing
-                        </p>
-                    </div>
-                    </div>
+            <div className="benefits__panel">
+              <img src= {steeringwheelIcon}  alt="steering wheel icon"/>
+              <div className="benefits__panel-text">
+                  <h4>No Hidden Charges</h4>
+                  <p>
+                  Enjoy peace of mind with our no hidden charges. We believe in
+                  transparent and honest pricing
+                  </p>
+              </div>
+            </div>
 
             </div>
             </div>

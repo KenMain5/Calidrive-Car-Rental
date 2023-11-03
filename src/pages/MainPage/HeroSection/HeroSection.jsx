@@ -1,6 +1,7 @@
 import React from 'react'
 import './HeroSection.scss'
-
+import heroPic from '../../../assets/heroSection/heroPic.png'
+import heroPicBg from '../../../assets/heroSection/hero-bg.png'
 
 function HeroSection() {
   return (
@@ -8,13 +9,11 @@ function HeroSection() {
             <div className="wrapper">
                 <div className="hero__content">
                     <div className="hero__content-text">
-                        {/* <h4>Plan your trip now</h4> */}
                         <h4>Book Your Adventure Today</h4>
-                        {/* <h1>Unlock <span>BIG</span> savings on your next rental</h1> */}
                         <h1>Save <span>BIG</span> with our car rental</h1>
                         <p>
-                        Rent the car of your dreams. Unbeatable prices, unlimited miles,
-                        flexible pick-up options and much more
+                            Rent the car of your dreams. Unbeatable prices, unlimited miles,
+                            flexible pick-up options and much more
                         </p>
                         <div className="hero__content-buttons">
                             <a href="#carReservationContainer" className="button">Book Ride</a>
@@ -22,11 +21,11 @@ function HeroSection() {
                         </div>
                     </div>
                     <div className="hero__content-image">
-                        <img src="/src/assets/heroSection/heroPic.png" alt=""/>
+                        <img src={heroPic} alt="expensive looking car"/>
                         </div>
                     </div>
                     <div className='hero__background'>
-                    <img src="/src/assets/heroSection/hero-bg.png" alt="" />
+                    <img src={heroPicBg} alt="nice background of the city" />
                     </div>
             </div>  
         </section>

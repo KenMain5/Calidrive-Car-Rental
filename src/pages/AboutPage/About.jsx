@@ -5,8 +5,6 @@ import SectionDivider from '/src/components/SectionDivider/SectionDivider'
 
 
 function About() {
-//https://www.lovebonito.com/us/pages/us-about-us
-//https://www.nationalcar.com/en/home.html
   return (
     <div className='about'>
         <div className='hero'>
