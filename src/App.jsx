@@ -18,7 +18,7 @@ function App() {
         </PageLayout> 
         } />
 
-        <Route path="login" element= {
+        {/* <Route path="login" element= {
         <PageLayout>
         <LoginPage/>     
         </PageLayout>  
@@ -27,14 +27,14 @@ function App() {
         <PageLayout>
         <About /> 
         </PageLayout> 
-        } />
+        } /> */}
         
-        <Route path="test" element={
+        {/* <Route path="test" element={
         <PageLayout>
         <CurrentUserSelection/>
         <CarSelection/> 
         </PageLayout> 
-        } />
+        } /> */}
 
         {/* Add other routes as needed */}
       </Routes>
