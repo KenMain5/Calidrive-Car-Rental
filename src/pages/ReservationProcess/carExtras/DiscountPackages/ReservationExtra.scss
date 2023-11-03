@@ -1,0 +1,98 @@
+.reservationExtra {
+    background-color: rgb(240, 240, 240);
+}
+
+.reservationExtra_description {
+    display: flex;
+    flex-direction: column;
+
+    & > span:nth-child(1){
+        font-size: 32px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+    }
+
+    & > span:nth-child(2){
+        font-size: 14px;
+    }
+}
+
+.packageContainer {
+    
+    
+    margin: 1.1rem;
+    padding: 20px;
+    background-color: white;
+    
+   
+
+    & > span:nth-child(1){
+        font-size: 24px;
+  
+    }
+}
+
+.checkIcon {
+    color: red; 
+}
+
+.itemCoverage {
+    display: flex;
+    align-items: center;
+
+    & span {
+        margin-left: .6rem;
+    }
+    
+}
+
+
+
+.package__title{
+    font-size: 24px;
+    margin-bottom: 1rem;
+}
+
+.discount__coverage {
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+   
+    font-size: 14px;
+}
+
+.package__price {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+    min-width: 454px;
+    height: 35px;
+    padding: 4px 15px;
+    background-color: red;
+
+    & span {
+        margin-left: 1rem;
+        font-size: 14px;
+        color: white;
+        letter-spacing: .88px;
+    }
+}
+
+.package__price-checkBox input{
+    font-size: 10rem;
+    outline: none;
+}
+
+.vehicle1 {
+    font-size: 10rem;
+    outline: none;
+}
+
+@media (min-width: 768px){
+    
+    .packageContainer {
+        margin: 0 1rem;
+        
+        
+    }
+}

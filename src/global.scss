@@ -1,0 +1,142 @@
+:root {
+  --primary-color: orange;
+  --secondary-color: #706f7b; 
+}
+
+body {
+  background-color: #fcf8f6;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+    //background-color: #f8f8f8;
+}
+
+a {
+    display: inline-block; 
+    text-decoration: none;
+}
+
+.wrapper {
+  max-width: 83.125rem; 
+  padding: 0 2rem; 
+  margin: 0 auto; 
+} 
+
+//Two different buttons -> two different CSS
+.button {
+  padding: 1rem 2rem; 
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+
+span {
+  display: inline-block; 
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: #706f7b; 
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+
+
+select {
+  opacity: 0; 
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+}
+
+
+ 
+
+.primary-color {
+  color: orange; 
+}
+
+.blackbg {
+background-color: black;
+}
+
+.dg-color {
+  color: #706f7b;
+}
+
+.blackbg {
+  background-color: black;
+}
+
+.red-color {
+  color: red; 
+}
+
+.span-bold {
+  font-weight: normal;
+}
+
+
+
+// textarea,
+// input,
+// button {
+//   font-size: 1rem;
+//   font-family: inherit;
+//   border: none;
+//   border-radius: 8px;
+//   padding: 0.5rem 0.75rem;
+//   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.2), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+//   background-color: white;
+//   line-height: 1.5;
+//   margin: 0;
+// }
+
+
+// button {
+//   color: #3992ff;
+//   font-weight: 500;
+// }
+
+// textarea:hover,
+// input:hover,
+// button:hover {
+//   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.6), 0 1px 2px hsla(0, 0%, 0%, 0.2);
+// }
+
+// button:active {
+//   box-shadow: 0 0px 1px hsla(0, 0%, 0%, 0.4);
+//   transform: translateY(1px);
+// }
+
+
+
+// #error-page {
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+//   justify-content: center;
+//   width: 100%;
+// }

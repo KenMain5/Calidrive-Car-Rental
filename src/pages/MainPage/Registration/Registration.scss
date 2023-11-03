@@ -1,0 +1,136 @@
+.registrationPage {
+    height: 100vh; 
+    width: 100vw; 
+    display: flex; 
+
+    & > div {
+        flex: 1; 
+        width: 50%; 
+    } 
+
+
+    
+}
+
+.registrationPage__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    & h2 {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    & p {
+        margin-bottom: 3rem;
+    }
+}
+
+.registrationPage__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.registrationPage__image {
+    display: none; 
+}
+
+.registrationPage__form {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.registrationPage__item > div {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 20.75rem;
+    background-color: #f4f4f4; 
+    padding: 5.75; 
+    height: 2.5rem; 
+    margin: .5rem 0;
+
+    & input {
+        width: 20.75rem;
+        background-color: transparent;
+        border: none; 
+        outline: none;
+        height: 2rem; 
+        padding: 0 1rem;
+    }
+}
+
+
+.registrationPage__form div:nth-child(3) {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(92, 94, 98);
+}
+
+.registrationPage__form label {
+    color: rgb(92, 94, 98);
+}
+
+.registrationPage__title button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem; 
+    width: 20.75rem; 
+    margin: 1rem 0;
+}
+
+.or-divider {
+    margin: 40px auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 20.75rem;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: ""; 
+    display: inline-block;
+    width: 40%; 
+    height: 1px; 
+    margin: 0 8px; 
+    background-color:#e2e3e3;
+
+}
+
+.registrationOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    & span:nth-child(1) {
+        margin: 2rem;
+    }
+}
+/* 
+tesls button blue (62, 106, 225)*/ 
+ /* border-color: rgb(0, 0, 0); darker color for border on focus */
+
+
+
+@media (min-width: 1032px) {
+    .registrationPage__image {
+        display: initial; 
+        overflow: hidden; 
+
+        & img {
+            object-fit: cover;
+            width: 100%; 
+            height: 100%;
+            
+        }
+    }
+
+
+
+
+}

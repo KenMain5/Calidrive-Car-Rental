@@ -1,0 +1,79 @@
+.services__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+}
+    
+    /* justify-content: baseline?? */
+.services-columns {
+    max-width: 75%;
+    padding: 0;   /* remove initial padding */
+    padding-bottom: 1rem;
+    margin-bottom: 2.5rem;
+
+    & img {
+        margin-bottom: 3rem;
+        max-width: 20%;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+
+    & h2 {
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.services__description {
+    margin-top: 16rem;
+    justify-content: center;
+    text-align: center;
+
+    &  h1 {
+        margin: 1rem 3rem 6rem;
+        line-height: 3rem;
+        font-weight: 900;
+    }
+}
+    
+
+@media (min-width: 461) {
+    // is this needed? 
+    .services-columns img{
+        margin: 0;
+    }
+    
+    //is this needed?
+    .services-columns{
+      max-width: 80%;
+    }
+    
+    //do we need this for the main one? 
+    .services-columns p{
+        padding-bottom: 3rem;
+    }
+    }
+    
+@media (min-width: 1032px) {
+    .services__description h1 {
+        margin: 1rem 0 9rem;
+    }
+    
+    .services__container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .services-columns {
+        max-width: 25%;
+        padding: 0 1rem;
+    }
+    
+    .services-columns img {
+        max-width: 6rem;
+        margin-bottom: 1.6rem;
+    }
+}
+

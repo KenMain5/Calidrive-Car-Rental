@@ -1,0 +1,124 @@
+.loginPage {
+    height: 100vh; 
+    width: 40vw;
+    display: flex; 
+    justify-content: center;
+}
+
+.loginPage__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    & h2 {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    & p {
+        margin-bottom: 3rem;
+    }
+}
+
+.loginPage__form {
+    display: flex;
+    flex-direction: column;
+}
+
+.loginPage__image {
+    display: none; 
+}
+
+.loginPage__form {
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loginPage__item > div {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 20.75rem;
+    background-color: #f4f4f4; 
+    padding: 5.75; 
+    height: 2.5rem; 
+    margin: .5rem 0;
+
+    & input {
+        width: 20.75rem;
+        background-color: transparent;
+        border: none; 
+        outline: none;
+        height: 2rem; 
+        padding: 0 1rem;
+    }
+}
+
+
+.loginPage__form div:nth-child(3) {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(92, 94, 98);
+}
+
+.loginPage__form label {
+    color: rgb(92, 94, 98);
+}
+
+.loginPage__title button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2.5rem; 
+    width: 20.75rem; 
+    margin: 1rem 0;
+}
+
+.or-divider {
+    margin: 40px auto;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 20.75rem;
+}
+
+.or-divider::before,
+.or-divider::after {
+    content: ""; 
+    display: inline-block;
+    width: 40%; 
+    height: 1px; 
+    margin: 0 8px; 
+    background-color:#e2e3e3;
+
+}
+
+.loginOptions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+
+    & span:nth-child(1) {
+        margin: 2rem;
+    }
+}
+/* 
+tesls button blue (62, 106, 225)*/ 
+ /* border-color: rgb(0, 0, 0); darker color for border on focus */
+
+
+
+@media (min-width: 1032px) {
+    .loginPage__image {
+        display: initial; 
+        overflow: hidden; 
+
+        & img {
+            object-fit: cover;
+            width: 100%; 
+            height: 100%;
+        }
+    }
+}

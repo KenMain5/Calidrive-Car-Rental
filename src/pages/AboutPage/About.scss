@@ -1,0 +1,141 @@
+.about {
+    width: 100vw; 
+    background-color: #fcf8f6;
+
+    & .hero {
+        height: 62vh;
+        width: 100%; 
+        position: relative;
+        background-image: url('/src/assets/aboutPage/img1.jpg');
+        background-position: center center;
+      
+
+        & span {
+            position: absolute; 
+            top: 20vh;
+            right: 11vw;
+            font-size: 3rem;
+            width: min-content;
+            letter-spacing: .6rem;
+        }
+    }
+ 
+    & .about__text-icon {
+        font-size: 4rem;
+        background-color: red;
+    }
+
+    & h2 {
+            font-size: 1.75rem; 
+            font-size: 700; 
+            color: rgb(65, 64, 66)
+    }
+
+    & p { 
+        margin: 16px 0; 
+        font-size: 16px;
+        font-weight: 600;
+        color: rgb(65, 64, 66); 
+    }
+}
+
+
+.mission {
+    text-align: center;
+    padding: 107px 20px; 
+    
+  
+}
+
+.mission__section {
+    display: flex; 
+    flex-direction: column;
+   
+
+
+    & span {
+        margin: 18px 0; 
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 700; 
+        color: rgb(65, 64, 66)
+    }
+
+    
+}
+
+.about__philosophy {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    & .about__philosophy-image {
+        height: 330px;
+        width: 480px;
+
+        & img {
+            height: 100%; 
+            width: 100%; 
+           
+
+        }
+    }
+
+    & .about__philosophy-text {
+        margin: 35px 20px; 
+        text-align: center;
+    }
+}
+@media (min-width: 601px) {
+    .about .hero {
+        height: 85vh;
+        width: 100%; 
+        position: relative;
+        background-image: url('/src/assets/aboutPage/img1.jpg');
+        background-position: center center;
+    }
+
+
+
+
+    .about__philosophy-image {
+        height: 400px;
+        width: 601px;
+
+        & img {
+            height: 100%; 
+            width: 100%; 
+           
+
+        }
+    }
+}
+
+@media (min-width: 1025px) {
+    .about {
+        & .hero {
+            height: 100vh;    
+            background-position: bottom center;
+            // width: 80vw; 
+            // margin: 0 auto; 
+        }
+
+        & h2 {
+            font-size: 2.25rem;
+            font-weight: 700; 
+            color: rgb(65, 64, 66)
+        }
+    }
+    .about__philosophy {
+        flex-direction: row;
+    }
+
+
+    .mission {
+        text-align: center;
+        padding: 107px; 
+    }
+
+}

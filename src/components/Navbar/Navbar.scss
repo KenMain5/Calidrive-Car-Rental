@@ -1,0 +1,152 @@
+.navbar {
+  height: 8vh; 
+  position: relative;
+  margin-top: 1.5rem;
+  z-index: 15; 
+  
+
+  & .navbar__items {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+  }
+}
+
+
+//media @(min-width: 460px){}
+//media @(min-width: 461px){}
+//media @(min-width: 800px){}
+//initially its -100, then 0 so people can see
+//how about 100 
+
+
+.navbar__links, 
+.navbar__buttons {
+  display: none; 
+}
+
+.hamburgerIcon {
+  cursor: pointer;
+  border: none; 
+  z-index: 5; 
+}
+
+.navbar__logo {
+  display: flex; 
+
+  & .navbar__logo-text {
+    display: flex; 
+    flex-direction: column;
+    //padding-top: .5rem;
+
+    & span:nth-child(1){
+      font-weight: 900; 
+      font-size: 1.8rem;
+    }
+
+    & span:nth-child(2){
+      font-size: 1.2rem;
+    }
+  }
+
+
+  & .navbar__logo-icon svg {
+    color: var(--primary-color);
+    font-size: 3rem;
+    margin-right: 1rem; 
+  }
+
+}
+
+.navbar__logo-icon {
+  color: var(--primary-color); 
+  font-size: 3rem;
+  margin-right: 1rem; 
+}
+
+
+
+
+// /* SignInButton don't change colors when hover..  */
+// #navbar li a:hover,
+// .signInButton a:hover {
+//   color: var(--primary-color);
+// }
+
+
+
+
+
+
+
+
+
+.navbar__mobileLinks {
+  height: 100vh; //Todo make it 100 vh, then do z-index.. so we can see the main navbar still 
+  width: 100vw; 
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center;
+
+
+  position: fixed;
+  //are these even needed? the positioning? align and justify content doing the same thing
+  left: 0; 
+  right: 0; 
+  top: 0; 
+  margin: 0 auto; 
+  background-color: white;
+
+  & a {
+      display: block; 
+      padding: 1rem; 
+      margin: .3rem; 
+      transition: .3s all ease; 
+      color: black;
+
+      &:hover {
+          color: red; 
+      }
+  }
+}
+
+
+@media (min-width: 1033px) {
+  .navbar__links, 
+  .navbar__buttons {
+    display: initial;  
+  }
+
+  .hamburgerIcon, .navbar__mobileLinks {
+    display: none;
+  }
+
+  .navbar__links a {
+    color: black;
+    font-weight: 500;
+    padding: 0 1rem;
+  }
+  
+  
+  .navbar__buttons {
+    & a:nth-child(1) { 
+      color: black; 
+    }
+  
+    & a:nth-child(2) {
+      margin-left: 2rem;
+      color: white;
+    }
+  }
+}
+
+
+
+
+
+
+
+
+

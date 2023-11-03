@@ -1,0 +1,131 @@
+
+.showcase__images img {
+    width: 50%;
+}
+.showcase__imagesTableContainer {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.showcase {
+    margin-top: 13rem;
+
+    & h4 {
+        margin-bottom: 1rem;
+    }
+
+    & .showcase__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.showcase__row {
+    display: flex;
+    margin-top: 3rem;
+    justify-content: space-between;
+    width:100%;
+    flex-direction: column;
+}
+
+.showcase__button h4 {
+    font-size:  1.4rem;
+    font-weight: normal;
+    padding: 1.5rem 2.5rem 1.5rem 1.5rem; 
+    max-height: 3.7rem;
+    min-width: 13rem;
+    display: flex;
+    align-items: center;
+    background: #e9e9e9;
+    text-align: center; //can remove?
+
+    &:hover {
+    background: var(--primary-color);
+    color: white;
+    cursor: pointer;
+    }
+}
+
+.showcase__table table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    min-width: 15rem;
+    height: 22rem;
+
+& th {
+    font-weight: normal; //???
+    font-size: 1rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+& td {
+    font-size: .7rem;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+& tr {
+    text-align: center;
+}
+}
+
+.button-reserve{
+    margin-top: .5rem;
+    min-width: 15rem;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.3rem;
+  
+    & a {
+        color: white;
+    }
+}
+
+#mainTableHeader {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: bold;
+    background: var(--primary-color);
+}
+
+.showcase__images img {
+width: 35rem;
+height: auto; 
+min-width: 100%;
+}
+
+
+.showcase__imagesTableContainer {
+display: flex;
+}
+
+.showcase__table thead{
+    background-color: orange;
+}
+
+@media (min-width: 701px) {
+.showcase__imagesTableContainer {
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.showcase__images img {
+    width: 50%;
+}
+}
+
+@media (min-width:865px){
+.showcase__imagesTableContainer {
+    justify-content: space-between;
+}
+} 
+
+@media (min-width:1061px) {
+.showcase__row {
+    flex-direction: row;
+}
+}
+
