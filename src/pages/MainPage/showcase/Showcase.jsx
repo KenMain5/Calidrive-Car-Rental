@@ -23,7 +23,7 @@ const handleButton = (index) => {
       "buttonName": "GT86 Toyota" ,"url": car1, "model": "GT86", "mark": "Toyota", "year": "2023", "doors": 2, "transmission": "Automatic", "fuel": "28mpg", "cost": "$120 per day"
     }, 
     {
-      "buttonName":"Corvette Stingray", "url": car2, "model": "Corvette", "color": "black", "mark": "Chevrolet" ,"year": "2024", "doors": 2, "transmission": "Automatic", "fuel": "20mpg", "cost": "$250 per day"
+      "buttonName":"Corvette Stingray", "url": car5, "model": "Corvette", "color": "black", "mark": "Chevrolet" ,"year": "2024", "doors": 2, "transmission": "Automatic", "fuel": "20mpg", "cost": "$250 per day"
     }, 
     {
       "buttonName":"Model S Tesla", "url": car3, "model": "Model S","year": "2024", "doors": 4, "transmission": "Automatic", "fuel": "330mpch", "cost": "$300 per day"
