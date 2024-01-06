@@ -1,4 +1,3 @@
-import React from 'react'
 import './LoginPage.css'
 import { useState } from 'react'
 
@@ -17,14 +16,14 @@ function LoginPage() {
             <p>Welcome to Car Rental</p>
             <form className='loginPage__form'>
                  <div className="loginPage__item">
-                    <label for="username or email">Username or Email</label>
+                    <label htmlFor="username or email">Username or Email</label>
                     <div>
                       <input type="username"></input>
                     </div>
                  </div>
 
                  <div className="loginPage__item">
-                  <label for="password">Password</label>
+                  <label htmlFor="password">Password</label>
                     <div>
                         <input type="password"></input>
                       </div>

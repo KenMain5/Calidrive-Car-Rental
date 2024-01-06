@@ -9,7 +9,6 @@
         background-image: url('/src/assets/aboutPage/img1.jpg');
         background-position: center center;
       
-
         & span {
             position: absolute; 
             top: 20vh;
@@ -34,25 +33,20 @@
     & p { 
         margin: 16px 0; 
         font-size: 16px;
-        font-weight: 600;
+        font-weight: 500;
         color: rgb(65, 64, 66); 
     }
 }
 
-
 .mission {
     text-align: center;
     padding: 107px 20px; 
-    
-  
 }
 
 .mission__section {
     display: flex; 
     flex-direction: column;
    
-
-
     & span {
         margin: 18px 0; 
         font-size: 18px;
@@ -60,8 +54,6 @@
         font-weight: 700; 
         color: rgb(65, 64, 66)
     }
-
-    
 }
 
 .about__philosophy {
@@ -72,14 +64,13 @@
     justify-content: center;
 
     & .about__philosophy-image {
-        height: 330px;
-        width: 480px;
+        max-height: 432px;
+        max-width: 640px;
+        object-fit: cover;
 
         & img {
             height: 100%; 
             width: 100%; 
-           
-
         }
     }
 
@@ -96,21 +87,6 @@
         background-image: url('/src/assets/aboutPage/img1.jpg');
         background-position: center center;
     }
-
-
-
-
-    .about__philosophy-image {
-        height: 400px;
-        width: 601px;
-
-        & img {
-            height: 100%; 
-            width: 100%; 
-           
-
-        }
-    }
 }
 
 @media (min-width: 1025px) {
@@ -118,8 +94,6 @@
         & .hero {
             height: 100vh;    
             background-position: bottom center;
-            // width: 80vw; 
-            // margin: 0 auto; 
         }
 
         & h2 {
@@ -128,14 +102,44 @@
             color: rgb(65, 64, 66)
         }
     }
-    .about__philosophy {
-        flex-direction: row;
-    }
-
+    
 
     .mission {
         text-align: center;
-        padding: 107px; 
+        padding: 50px 107px; 
+        margin: 0 auto;
+        width: 1200px;
     }
+
+    .about__philosophy {
+        flex-direction: row;
+        margin-bottom: 30px;
+
+
+    
+        & .about__philosophy-image {
+            height: 432px;
+            width: 640px;
+    
+            & img {
+                height: 100%; 
+                width: 100%; 
+            }
+        }
+
+        & .about__philosophy-text {
+            padding: 0 50px;
+            margin: 0; 
+            width: 40%; 
+            text-align: justify;
+
+            & h2 {
+                text-align: center;
+            }
+            
+
+        }
+    }
+        
 
 }

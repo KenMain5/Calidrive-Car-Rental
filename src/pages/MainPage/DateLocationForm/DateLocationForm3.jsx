@@ -1,4 +1,3 @@
-import React from 'react'
 import './DateLocationForm3.scss'
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';

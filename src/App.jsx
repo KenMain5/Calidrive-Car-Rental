@@ -18,16 +18,17 @@ function App() {
         </PageLayout> 
         } />
 
-        {/* <Route path="login" element= {
+        <Route path="/login" element= {
         <PageLayout>
         <LoginPage/>     
         </PageLayout>  
         }/>
-        <Route path="about" element={
+        
+        <Route path="/about" element={
         <PageLayout>
         <About /> 
         </PageLayout> 
-        } /> */}
+        } />
         
         {/* <Route path="test" element={
         <PageLayout>

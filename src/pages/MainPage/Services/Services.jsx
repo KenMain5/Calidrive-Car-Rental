@@ -1,4 +1,3 @@
-import React from 'react'
 import './Services.scss'
 import carwashIcon from '../../../assets/icons/carwash.png'
 import operatorIcon from '../../../assets/icons/operator.png'

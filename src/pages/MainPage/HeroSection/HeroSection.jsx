@@ -1,4 +1,3 @@
-import React from 'react'
 import './HeroSection.scss'
 import heroPic from '../../../assets/heroSection/heroPic.png'
 import heroPicBg from '../../../assets/heroSection/hero-bg.png'

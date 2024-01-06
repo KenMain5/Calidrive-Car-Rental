@@ -1,4 +1,3 @@
-import React from "react";
 import Lottie from "lottie-react";
 import errorPageAnimation from '../assets/errorPageAnimation/errorPageAnimation.json'; 
 import './ErrorPage.scss'

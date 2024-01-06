@@ -1,4 +1,3 @@
-import React from 'react'
 import './Benefits.scss'
 import { Link } from 'react-router-dom'
 import carwashIcon from '../../../assets/icons/carwash.png'

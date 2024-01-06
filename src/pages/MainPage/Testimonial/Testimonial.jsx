@@ -1,11 +1,10 @@
-import React from 'react'
 import './Testimonial.scss'
 
 
 function Testimonial() {
   return (
     <section>
-    <div class="wrapper">
+    <div className="wrapper">
       <div id="testimonialContainer">
         <h4>Reviewed by People</h4>
         <h1>Client's Testimonials</h1>
@@ -15,23 +14,23 @@ function Testimonial() {
           results, and they're eager to share their positive experiences with you.
         </p>
         <div id="userTestimonies">
-          <div class="userTestimonyTemplate">
+          <div className="userTestimonyTemplate">
             <p>
               "We rented a car from this website and had an amazing experince! The
               booking was easy and the rental rates were very affordable. "
             </p>
-            <div class="userTestimonyTesmplate__user">
+            <div className="userTestimonyTesmplate__user">
               {/* <!-- <img src="/images/testimony/pexels-christina-morillo-1181690.jpg" alt=""/> -->
               <!-- <h4>- Patrick Star</h4> --> */}
             </div>
           </div>
-          <div class="userTestimonyTemplate">
+          <div className="userTestimonyTemplate">
             <p>
               "The car was in great condition and made our trip even better.
               Highly recommend for this car rental webbsite! "
             </p>
 
-            <div class="userTestimonyTesmplate__user">
+            <div className="userTestimonyTesmplate__user">
               {/* <!-- <img src="/images/testimony/pexels-justin-shaifer-1222271.jpg" alt=""/> --> */}
                 
               

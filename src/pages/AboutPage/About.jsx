@@ -1,35 +1,24 @@
-import React from 'react'
 import './About.scss'
-import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import SectionDivider from '/src/components/SectionDivider/SectionDivider'
+import personIMG from '../../assets/aboutPage/img2.jpg'
 
 
 function About() {
   return (
     <div className='about'>
-        <div className='hero'>
-            <h2>Empowering confidence through Fashion</h2>
-            <div className='hero__text-icon'><KeyboardDoubleArrowDownIcon/></div>
-        </div>
         <div className='mission'>
-            <h2>CarRental</h2>
             <div className='mission__section'>
-                <span>our history and mission</span>
-                <p>In the sun-kissed landscapes of California, our story took root in 2005 when our visionary co-founders set out with a fresh perspective on car rentals. Originally going by the name CaliDrive, we embarked with a humble fleet of pre-owned luxury vehicles. Co-founder, Rachel Lim, observed a distinct disconnect in the market; she felt many car rental options didn't genuinely resonate with the dreams and desires of everyday Californians like herself. Refusing to settle for mediocrity, Rachel conceptualized a car rental service marrying affordability with flair, meticulously designed for the discerning Californian. And so, Love, CaliDrive came into existence.</p>
-                <p>As we cruise into the present, Love, CaliDrive is now recognized as one of the premier car rental brands in the Golden State, with a robust online and physical footprint spanning major Californian cities. We've broadened our horizons by extending our unparalleled services to 18 states, and are thrilled to unveil our latest venture right in the vibrant heart of downtown Los Angeles!</p>
-                <p>Each car in our diverse fleet is thoughtfully handpicked and maintained in-house. Central to our mission is a commitment to strike the perfect balance between luxury and economy, ensuring every Californian gets to revel in the thrill of an upscale drive without breaking the bank. Whether you're darting around for daily chores, important business rendezvous, scenic coastal drives, or unforgettable Californian road trips, we're with you for every twist and turn. Together, let's reshape the way California drives, with sophistication, grace, and value steering the way.</p>
-                <p></p>
-               
+                <span>Our History and Mission</span>
+                <p>Founded in California in 2023, Love, CaliDrive, originally CaliDrive, began with a selection of pre-owned luxury cars. Co-founder Kenneth Arguelles envisioned a car rental service that resonated with Californians' aspirations, blending affordability with style. Now a top brand in California, Love, CaliDrive has expanded to 18 states, with a significant presence in major cities including downtown Los Angeles. Our fleet, maintained in-house, embodies our mission to offer luxury at an economical price, catering to diverse needs from daily commutes to scenic road trips. We aim to redefine Californian driving experiences with sophistication and value.</p>
+                <p>Love, CaliDrive's in-house maintained fleet symbolizes our dedication to providing luxury and affordability, catering to various needs from everyday commutes to picturesque road trips. Central to our mission is not just redefining Californian driving experiences with elegance and value, but also supporting your personal journey of self-discovery. We aim to be more than a car rental service; we aspire to be a companion on your path, illuminating the way as you embrace the Californian spirit and discover your true self.</p>
+                <p>Beyond just being a car rental company, Love, CaliDrive is a testament to innovation and customer-centric service. Each interaction with our clients is an opportunity to create memorable experiences, whether it's for a business trip, a family vacation, or just a weekend getaway. Our commitment extends beyond the roads. We actively engage with the community, seeking feedback and ideas, ensuring that we evolve and grow in harmony with the needs and aspirations of our customers. It’s not just about the journey, but also about the lasting relationships we build, making every drive an integral part of the larger Love, CaliDrive story..</p>
             </div>
-            <div className='mission__section'>
-                <span>Come into your own</span>
-                <p>Nestled amid the rolling hills and expansive coastlines of California, our mission finds its essence. As you navigate your unique trail of self-exploration, we're committed to fueling that quest. Our ambition is to be a beacon, illuminating your path, helping you unearth your voice, trust in your essence, and celebrate your true self. As you evolve, blooming into the Californian spirit you were always destined to embody, know that we’re journeying right beside you, cheering every step you take towards embracing your authentic self.</p>
-            </div>
+            
         </div>
         <SectionDivider/>
         <div className='about__philosophy'>
             <div className='about__philosophy-image'>
-                <img src="/src/assets/aboutPage/img2.jpg" alt=""/>
+                <img src={personIMG} alt="image of person driving"/>
             </div>
             <div className='about__philosophy-text'>
                 <h2>Thoughtfully-Designed Drives</h2>

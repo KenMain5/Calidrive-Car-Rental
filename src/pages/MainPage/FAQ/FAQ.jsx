@@ -1,4 +1,3 @@
-import React from 'react'
 import './FAQ.scss'
 import { useState } from 'react';
 
