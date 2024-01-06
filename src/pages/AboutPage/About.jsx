@@ -23,12 +23,8 @@ function About() {
             <div className='about__philosophy-text'>
                 <h2>Thoughtfully-Designed Drives</h2>
                 <p>Crafted for the real world, our cars don’t just shine under showroom lights; they're engineered to cater to every twist and turn of your life. From spacious interiors for those impromptu road trips to advanced safety features for days when the weather turns treacherous, we've meticulously curated every detail, so you can drive with peace of mind. Our vehicles are tested in real-world conditions, ensuring they are not just ready-to-drive, but truly ready-to-explore. Whether it's the daily commute or a weekend getaway, trust our fleet to make every journey seamless.</p>
-        
             </div>
         </div>
-
-        
-
     </div>
   )
 }

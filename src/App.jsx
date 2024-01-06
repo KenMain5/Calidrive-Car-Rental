@@ -7,7 +7,7 @@ import Home from '/src/pagelayouts/Home';
 import About from '/src/pages/AboutPage/About';
 import CarSelection from '/src/pages/ReservationProcess/CarSelection/CarSelection'
 import CurrentUserSelection from '/src/pages/ReservationProcess/currentUserSelection/CurrentUserSelection'
-
+// import Registration from './pages/MainPage/Registration/Registration';
 function App() {
   return (
     <Router>
@@ -29,6 +29,12 @@ function App() {
         <About /> 
         </PageLayout> 
         } />
+
+        {/* <Route path="/register" element={
+        <PageLayout>
+        <Registration /> 
+        </PageLayout> 
+        } /> */}
         
         {/* <Route path="test" element={
         <PageLayout>
