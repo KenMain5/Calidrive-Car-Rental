@@ -3,8 +3,8 @@
   position: relative;
   margin-top: 1.5rem;
   z-index: 15; 
+  border-bottom: 1px rgb(223, 223, 223) solid;
   
-
   & .navbar__items {
     display: flex; 
     align-items: center;
@@ -12,13 +12,6 @@
     text-align: center;
   }
 }
-
-
-//media @(min-width: 460px){}
-//media @(min-width: 461px){}
-//media @(min-width: 800px){}
-//initially its -100, then 0 so people can see
-//how about 100 
 
 
 .navbar__links, 

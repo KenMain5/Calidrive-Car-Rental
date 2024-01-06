@@ -39,7 +39,7 @@ const Navbar = () => {
                         <Link to="/">Testimonials</Link>
                         <Link to="/">Our Team</Link>
                         <Link to="/">Contact</Link>
-                        <Link to="/">Sign In</Link>
+                        <Link to="/login">Sign In</Link>
                         <Link to="/">Register</Link>
                     </div>
 
@@ -53,9 +53,10 @@ const Navbar = () => {
                     </div>
 
                     <div className="navbar__buttons">
-                            <Link to="">Sign In</Link>
+                            <Link to="/login">Sign In</Link>
                             <Link to="/" className='button'>Register</Link>
                     </div>
+
                 </div>
             </div>
         </nav>
