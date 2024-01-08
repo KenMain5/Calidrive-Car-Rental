@@ -8,6 +8,11 @@ import About from '/src/pages/AboutPage/About';
 import CarSelection from '/src/pages/ReservationProcess/CarSelection/CarSelection'
 import CurrentUserSelection from '/src/pages/ReservationProcess/currentUserSelection/CurrentUserSelection'
 // import Registration from './pages/MainPage/Registration/Registration';
+import Contact from './pages/ContactPage/Contact';
+import VehicleModels from './pages/VehicleModels/VehicleModels';
+import Careers from './pages/Careers/Careers';
+
+
 function App() {
   return (
     <Router>
@@ -29,6 +34,22 @@ function App() {
         <About /> 
         </PageLayout> 
         } />
+
+        <Route path="/contact" element={
+        <PageLayout>
+        <Contact /> 
+        </PageLayout> 
+        } />
+
+        <Route path="/careers" element={
+        <PageLayout>
+        <Careers /> 
+        </PageLayout> 
+        } />
+
+
+
+
 
         {/* <Route path="/register" element={
         <PageLayout>
