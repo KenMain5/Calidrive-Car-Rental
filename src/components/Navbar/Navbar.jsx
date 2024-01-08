@@ -35,10 +35,10 @@ const Navbar = () => {
                     <div className='navbar__mobileLinks' onClick={() => handleHamburger()} style={{transform: `translateX(${activate -100}vw)`, transition:'1s ease all'}}>
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
-                        <Link to="/">Vehicle Models</Link>
-                        <Link to="/">Testimonials</Link>
+                        <Link to="/careers">Careers</Link>
+                     
                         <Link to="/">Our Team</Link>
-                        <Link to="/">Contact</Link>
+                        <Link to="/contact">Contact</Link>
                         <Link to="/login">Sign In</Link>
                         <Link to="/">Register</Link>
                     </div>
@@ -46,10 +46,10 @@ const Navbar = () => {
                     <div className="navbar__links">
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
-                        <Link to="/">Vehicle Models</Link>
-                        <Link to="/">Testimonials</Link>
+                        <Link to="/careers">Careers</Link>
+                       
                         <Link to="/">Our Team</Link>
-                        <Link to="/">Contact</Link>
+                        <Link to="/contact">Contact</Link>
                     </div>
 
                     <div className="navbar__buttons">

@@ -1,0 +1,42 @@
+.getInTouch {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
+    margin: 240px 12px;
+
+    & > span {
+        margin-bottom: 24px;
+        font-size: 34px;
+        letter-spacing: -.2px;
+        line-height: 39px;
+    }
+
+    & .getInTouch__infoSection {
+        display: flex;
+        flex-direction: column;
+
+        & .getInTouch__description {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+    }
+
+}
+
+
+@media (min-width:768px){
+    .getInTouch { 
+        & > span {
+            margin-bottom: 24px;
+            font-size: 40px;
+            letter-spacing: -.2px;
+            line-height: 45px;
+        }
+    }
+}   
+
+@media (min-width:1025px){
+
+}
