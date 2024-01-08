@@ -1,0 +1,51 @@
+.register {
+    height: 100vh; 
+    width: 40vw;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.register__form-item > div {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 20.75rem;
+    background-color: #f4f4f4; 
+    padding: 5.75; 
+    height: 2.5rem; 
+    margin: .5rem 0;
+
+    & input {
+        width: 20.75rem;
+        background-color: transparent;
+        border: none; 
+        outline: none;
+        height: 2rem; 
+        padding: 0 1rem;
+    }
+}
+
+.register__title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    & h2 {
+        margin-top: 5rem;
+        margin-bottom: 3rem;
+    }
+    & p {
+        margin-bottom: 3rem;
+    }
+}
+
+
+.register__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+

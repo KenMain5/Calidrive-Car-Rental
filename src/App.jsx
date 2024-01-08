@@ -1,17 +1,14 @@
-import React from 'react';
 import './global.scss';
-import LoginPage from './pages/MainPage/LoginPage/LoginPage';
+import LoginPage from './pages/LoginPage/LoginPage';
 import PageLayout from '/src/pagelayouts/PageLayout';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from '/src/pagelayouts/Home';
 import About from '/src/pages/AboutPage/About';
 import CarSelection from '/src/pages/ReservationProcess/CarSelection/CarSelection'
 import CurrentUserSelection from '/src/pages/ReservationProcess/currentUserSelection/CurrentUserSelection'
-// import Registration from './pages/MainPage/Registration/Registration';
 import Contact from './pages/ContactPage/Contact';
-import VehicleModels from './pages/VehicleModels/VehicleModels';
 import Careers from './pages/Careers/Careers';
-
+import Register from './pages/RegisterPage/Register';
 
 function App() {
   return (
@@ -25,25 +22,31 @@ function App() {
 
         <Route path="/login" element= {
         <PageLayout>
-        <LoginPage/>     
+          <LoginPage/>     
         </PageLayout>  
         }/>
         
         <Route path="/about" element={
         <PageLayout>
-        <About /> 
+          <About /> 
         </PageLayout> 
         } />
 
         <Route path="/contact" element={
         <PageLayout>
-        <Contact /> 
+          <Contact /> 
         </PageLayout> 
         } />
 
         <Route path="/careers" element={
         <PageLayout>
-        <Careers /> 
+          <Careers /> 
+        </PageLayout> 
+        } />
+
+        <Route path="/register" element={
+        <PageLayout>
+        <Register />        
         </PageLayout> 
         } />
 

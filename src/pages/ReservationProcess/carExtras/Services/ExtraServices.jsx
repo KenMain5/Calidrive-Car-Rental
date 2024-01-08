@@ -1,5 +1,3 @@
-import React from 'react'
-
 function ExtraServices() {
     const EXTRAEQUIPMENT = [
         {"title": "Cover Roadside Issues (RSN)" , "price": "$7.99 /DAY" , "description": "24/7 service for issues like flat tires, dead batteries and lost keys. Sometimes these things happen and with Extended Roadside Assistance, we have got you covered."}, 

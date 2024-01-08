@@ -1,4 +1,3 @@
-import React from 'react'
 import CARSELECTION from '/src/data/CARSELECTION.js'
 import './CarSelection.scss'
 import Person2SharpIcon from '@mui/icons-material/Person2Sharp';

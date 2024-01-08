@@ -1,4 +1,4 @@
-import React from 'react'
+
 import DiscountPackages from './DiscountPackages/ReservationExtra'
 
 function CarReservation() {

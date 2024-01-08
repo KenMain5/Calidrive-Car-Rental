@@ -40,7 +40,7 @@ const Navbar = () => {
                         <Link to="/">Our Team</Link>
                         <Link to="/contact">Contact</Link>
                         <Link to="/login">Sign In</Link>
-                        <Link to="/">Register</Link>
+                        <Link to="/register">Register</Link>
                     </div>
 
                     <div className="navbar__links">
@@ -54,7 +54,7 @@ const Navbar = () => {
 
                     <div className="navbar__buttons">
                             <Link to="/login">Sign In</Link>
-                            <Link to="/" className='button'>Register</Link>
+                            <Link to="/register" className='button'>Register</Link>
                     </div>
 
                 </div>

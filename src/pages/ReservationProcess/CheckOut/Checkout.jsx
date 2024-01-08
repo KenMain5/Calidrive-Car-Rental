@@ -1,4 +1,3 @@
-import React from 'react'
 import './Checkout.scss'
 import { useState } from 'react'
 import { Checkbox, FormControlLabel, FormGroup } from '@mui/material';

@@ -1,6 +1,7 @@
 import './HeroSection.scss'
 import heroPic from '../../../assets/heroSection/heroPic.png'
 import heroPicBg from '../../../assets/heroSection/hero-bg.png'
+import { Link } from 'react-router-dom'
 
 function HeroSection() {
   return (
@@ -16,7 +17,8 @@ function HeroSection() {
                         </p>
                         <div className="hero__content-buttons">
                             <a href="#carReservationContainer" className="button">Book Ride</a>
-                            <a href="" className="button blackbg">Learn More</a>
+                            <Link to="/about" className='button blackbg'>Learn More</Link>
+                            {/* <a href="/about" className="button blackbg">Learn More</a> */}
                         </div>
                     </div>
                     <div className="hero__content-image">

@@ -1,4 +1,3 @@
-  import React from 'react'
 import './ReservationExtra.scss'
 import CheckOutlinedIcon from '@mui/icons-material/CheckOutlined';
 
