@@ -1,4 +1,3 @@
-import React from 'react'
 import './CurrentUserSelection.scss'
 
 function CurrentUserSelection() {

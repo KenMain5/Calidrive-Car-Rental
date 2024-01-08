@@ -1,5 +1,3 @@
-import React from 'react'
-
 function ExtraEquipment() {
     const EXTRAEQUIPMENT = [
         {"title": "Satellite Radio (XMR)" , "price": "$7.99 /DAY" , "description": "Get SiriusXM® to commercial-free music from almost every genre, plus sports, news and talk while you drive. Available at participating locations in the US and Canada."}, 
