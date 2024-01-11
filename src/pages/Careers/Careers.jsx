@@ -5,8 +5,8 @@ function Careers() {
   return (
     <div className='career'>
         <div className='career__header'>
-            <span>Rent A Future With Us</span>
-            <p>Join our team for exceptional car rental services and a unique business experience. Let's drive success together!</p>
+            <span>Drive Forward with Us</span>
+            <p>Become a key player in our esteemed car rental enterprise and embark on a remarkable business voyage. Together, we'll navigate the path to triumph!</p>
         </div>
         <div className='career__row'>
           <div className='career__image'>
@@ -14,7 +14,7 @@ function Careers() {
           </div>
 
           <div className='career__details'>
-            <p>Embark on a journey with us in the dynamic car rental industry. Our company owns a diverse fleet of vehicles, offering partners the opportunity to manage and operate a segment of our fleet. This unique business opportunity allows you to become part of a well-established brand, providing top-quality rental services to a wide range of customers. Benefit from our strong reputation, comprehensive support, and effective marketing strategies. As a partner, you'll oversee the day-to-day operations, customer service, and local marketing initiatives, while we take care of vehicle procurement, maintenance, and broad business strategies. Join us in shaping the future of mobility and enhancing customer satisfaction. Together, let's drive towards a successful future!</p>
+            <p>Join our venture in the vibrant car rental sector. At our company, we pride ourselves on a diverse and modern vehicle fleet, opening doors for partners like you to manage and run a portion of our collection. This exceptional business prospect allows you to integrate into a respected and thriving brand, renowned for delivering first-rate rental services to a broad spectrum of clients. Benefit from our well-established image, extensive support network, and dynamic marketing approaches. In your role as a partner, you'll be at the helm of daily operations, customer relations, and community-based marketing efforts, while we handle the logistics of vehicle acquisition, upkeep, and overarching corporate strategies. Collaborate with us in redefining the essence of mobility and elevating customer experiences. Let's join forces and steer our journey toward collective prosperity!</p>
           </div>
         </div>
         
