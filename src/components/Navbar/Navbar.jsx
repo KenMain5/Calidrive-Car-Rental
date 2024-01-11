@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom';
 import { useState } from 'react';       
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
+import companyLogo from '../../assets/RDLogo.png'
 import './Navbar.scss'
+
 
 const Navbar = () => {
     const [activate, setActivate] = useState(200); 
@@ -18,16 +20,9 @@ const Navbar = () => {
         <nav className='navbar'>
             <div className="wrapper">
                 <div className="navbar__items">
-                    <div className="navbar__logo">
-                        <div className='navbar__logo-icon'>
-                            <i className="fa-solid fa-car-on navbar__logo__image"></i>
-                        </div>
-                            <div className="navbar__logo-text">
-                                <span>CAR</span>
-                                <span>Rental</span>
-                            </div>
+                    <div className='navbar__logo-image'>
+                        <img src={companyLogo}></img>
                     </div>
-
                     <div className="hamburgerIcon" onClick={() => handleHamburger()}>
                         <MenuOutlinedIcon/>
                     </div>
@@ -47,7 +42,6 @@ const Navbar = () => {
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
                         <Link to="/careers">Careers</Link>
-                       
                         <Link to="/">Our Team</Link>
                         <Link to="/contact">Contact</Link>
                     </div>
