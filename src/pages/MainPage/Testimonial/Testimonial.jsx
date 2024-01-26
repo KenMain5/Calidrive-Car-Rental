@@ -20,8 +20,7 @@ function Testimonial() {
               booking was easy and the rental rates were very affordable. "
             </p>
             <div className="userTestimonyTesmplate__user">
-              {/* <!-- <img src="/images/testimony/pexels-christina-morillo-1181690.jpg" alt=""/> -->
-              <!-- <h4>- Patrick Star</h4> --> */}
+             
             </div>
           </div>
           <div className="userTestimonyTemplate">
@@ -31,8 +30,7 @@ function Testimonial() {
             </p>
 
             <div className="userTestimonyTesmplate__user">
-              {/* <!-- <img src="/images/testimony/pexels-justin-shaifer-1222271.jpg" alt=""/> --> */}
-              {/* <!-- <h4>- Spongebob Squarepants</h4> --> */}
+              
             </div>
         </div>
   </div>

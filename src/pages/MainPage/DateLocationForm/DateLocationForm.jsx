@@ -1,4 +1,4 @@
-import './DateLocationForm3.scss'
+import './DateLocationForm.scss'
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';
@@ -6,11 +6,11 @@ import { Checkbox, FormControlLabel, FormGroup } from '@mui/material';
 import KeyboardArrowDownOutlinedIcon from '@mui/icons-material/KeyboardArrowDownOutlined';
 import COUNTRIES from '../../../data/COUNTRIES.js';
 import AccessTimeOutlinedIcon from '@mui/icons-material/AccessTimeOutlined';
-import TIMES from '../../../data/TIMES';
+import TIMES from '../../../data/TIMES.js';
 import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import { useState } from 'react';
 
-function DateLocationForm3() {
+function DateLocationForm() {
   const AGES = ["25+", "24", "23", '22', '21', '20', '19', '18'];
   const [userTime, setUserTime] = useState("noon"); 
   const [userTimeReturn, setUserTimeReturn] = useState("noon"); 
@@ -46,7 +46,6 @@ function DateLocationForm3() {
       <div className="wrapper">
         <h4>Lets match you with your perfect car</h4>
         <form className="DateLocationForm__container" action="">
-          {/* create another div.. for full size screen..  */}
           <div className='form__group-sameLocationButton'> 
             <FormGroup>
               <FormControlLabel control={<Checkbox />} label="Pick-up and Return to same location" />
@@ -55,6 +54,7 @@ function DateLocationForm3() {
           <div className='form__group-fs'>
             <div className='form__group-location'>
               <input 
+              aria-label='Enter your pick-up location or zip code'
               placeholder='Enter your pick-up location or zip code'
               value={location}
               onChange={(e) => handleUserClickUsername(e.target.value)}
@@ -64,14 +64,15 @@ function DateLocationForm3() {
             <div className='form__group-row'>
               <div className='form__group-date'>
                 <LocalizationProvider dateAdapter={AdapterDayjs}>
-                <DatePicker />
+                <DatePicker/>
                </LocalizationProvider>
               </div>
 
               <div className='form__group-time'>
-                  <label></label>
+
                   <span>{userTime}</span>
                   <select 
+                    aria-label="Select Time"
                     value={userTime}
                     onChange={(e) => handleUserClick(e.target.value)}>  
                     {TIMES.map((time, index) => (
@@ -88,19 +89,19 @@ function DateLocationForm3() {
          
          <div className='form__group-fs'>
             <div className='form__group-location ss-remove '>
-                <input placeholder='Return to same location'></input>
+                
+                <input aria-label="Return to same location" placeholder='Return to same location'></input>
             </div>
             <div className='form__group-row'>
                 <div className='form__group-date'>
                   <LocalizationProvider dateAdapter={AdapterDayjs}>
                   <DatePicker />
                   </LocalizationProvider>
-                  {/* Return Date */}
                 </div>
 
                 <div className='form__group-time'>
                 <span>{userTimeReturn}</span>
-                  <select value={userTime} onChange={(e) => setUserTimeReturn(e.target.value)}>
+                  <select aria-label="pick a time" value={userTime} onChange={(e) => setUserTimeReturn(e.target.value)}>
                   {TIMES.map((time, index) => (
                       <option key={index}>{time}</option>
                   ))}
@@ -124,7 +125,7 @@ function DateLocationForm3() {
                       <label>Age: {}</label>
                       <span>{userAge}</span>
                     </div>
-                    <select id="user-age" value={userAge} onChange={(e) => handleUserAge(e.target.value)}>
+                    <select aria-label="pick a user-age" id="user-age" value={userAge} onChange={(e) => handleUserAge(e.target.value)}>
                       {AGES.map((age, index) => (
                         <option key={index}>{age}</option>
                       ))
@@ -142,7 +143,7 @@ function DateLocationForm3() {
                 <label htmlFor="residency">Residency:</label>
                 <span>{userCountry}</span>
               </div>
-              <select id="countries" onChange={(e) => handleUserResidency(e.target.value)}>
+              <select aria-label="pick a country" id="countries" onChange={(e) => handleUserResidency(e.target.value)}>
                 {COUNTRIES.map((country,index) => (
                     <option key={index} value={country.label}>{country.label}</option>
                 ))}
@@ -153,8 +154,8 @@ function DateLocationForm3() {
             <div className='discount'>
               <div className='left'>
                 <div><InfoOutlinedIcon/></div>
-                <label>Discount Codes: </label>
-                <input value={discountCode} onChange={() => handleDiscountCode()}></input>
+                <label htmlFor="discountCode">Discount Codes: </label>
+                <input id="discountCode" value={discountCode} onChange={() => handleDiscountCode()}></input>
               </div>
             </div>
           </div>
@@ -168,7 +169,7 @@ function DateLocationForm3() {
   )
 }
 
-export default DateLocationForm3
+export default DateLocationForm
 
 
 
