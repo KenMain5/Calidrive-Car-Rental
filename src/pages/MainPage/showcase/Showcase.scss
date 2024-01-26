@@ -1,4 +1,16 @@
 
+
+
+#mainTableHeader {
+    font-size: 1.3rem;
+    background: var(--primary-color);
+    text-align: center;
+    font-size: 1rem;
+    border: 1px solid black;
+    border-bottom: none;
+    padding: 1rem;
+}
+
 .showcase__images img {
     width: 50%;
 }
@@ -84,12 +96,7 @@
     }
 }
 
-#mainTableHeader {
-    color: white;
-    font-size: 1.3rem;
-    font-weight: bold;
-    background: var(--primary-color);
-}
+
 
 .showcase__images img {
 width: 35rem;

@@ -61,11 +61,13 @@ const handleButton = (index) => {
               </div>
               <div onClick className='showcase__table'>
                 <table>
-                  <thead>
+                <caption id="mainTableHeader">Car Specifications</caption>
+
+                {/* <thead>
                     <tr>
                       <th colSpan={2}>Amount</th>
                     </tr>
-                  </thead>
+                  </thead> */}
                   <tbody>
                     <tr>
                       <th>Model</th>
