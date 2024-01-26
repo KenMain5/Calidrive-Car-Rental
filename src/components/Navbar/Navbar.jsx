@@ -21,7 +21,7 @@ const Navbar = () => {
             <div className="wrapper">
                 <div className="navbar__items">
                     <div className='navbar__logo-image'>
-                        <img src={companyLogo}></img>
+                        <img src={companyLogo} alt="company logo"></img>
                     </div>
                     <div className="hamburgerIcon" onClick={() => handleHamburger()}>
                         <MenuOutlinedIcon/>

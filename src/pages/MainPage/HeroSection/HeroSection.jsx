@@ -18,7 +18,6 @@ function HeroSection() {
                         <div className="hero__content-buttons">
                             <a href="#carReservationContainer" className="button">Book Ride</a>
                             <Link to="/about" className='button blackbg'>Learn More</Link>
-                            {/* <a href="/about" className="button blackbg">Learn More</a> */}
                         </div>
                     </div>
                     <div className="hero__content-image">
