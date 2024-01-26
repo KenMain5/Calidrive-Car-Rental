@@ -57,7 +57,7 @@ const handleButton = (index) => {
             </div>
             <div className='showcase__imagesTableContainer'>
               <div className="showcase__images"> 
-                <img src={CARS[button].url} alt="" />
+                <img src={CARS[button].url} alt="images of premium cars" />
               </div>
               <div onClick className='showcase__table'>
                 <table>

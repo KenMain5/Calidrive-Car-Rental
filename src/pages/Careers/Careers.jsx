@@ -1,5 +1,5 @@
 import './Career.scss'
-import carPhoto from '../../assets/careers/1.jpg'
+import carPhoto from '../../assets/careers/key.jpg'
 
 function Careers() {
   return (

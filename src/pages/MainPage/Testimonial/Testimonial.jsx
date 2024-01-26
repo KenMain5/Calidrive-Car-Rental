@@ -32,8 +32,6 @@ function Testimonial() {
 
             <div className="userTestimonyTesmplate__user">
               {/* <!-- <img src="/images/testimony/pexels-justin-shaifer-1222271.jpg" alt=""/> --> */}
-                
-              
               {/* <!-- <h4>- Spongebob Squarepants</h4> --> */}
             </div>
         </div>

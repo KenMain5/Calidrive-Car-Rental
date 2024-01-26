@@ -1,6 +1,6 @@
 import './About.scss'
 import SectionDivider from '/src/components/SectionDivider/SectionDivider'
-import personIMG from '../../assets/aboutPage/img2.jpg'
+import personIMG from '../../assets/aboutPage/personDriving.jpg'
 
 
 function About() {
@@ -24,7 +24,7 @@ Founded in California in 2023, Royal Drive (RD) emerged as a premier destination
             <div className='about__philosophy-text'>
                 <h2>Thoughtfully-Designed Drives</h2>
                 <p>
-Crafted for life's unpredictable nature, Royal Drive's vehicles are designed not just to dazzle in the showroom, but to excel in every aspect of your everyday life. Our fleet boasts cars with spacious interiors, perfect for those spontaneous road trips, and is equipped with cutting-edge safety features for those unexpected weather changes. Every detail of our vehicles has been thoughtfully selected and meticulously tested in real-life conditions, ensuring that they are not just ready for the road, but also primed for adventure.</p>
+                Crafted for life's unpredictable nature, Royal Drive's vehicles are designed not just to dazzle in the showroom, but to excel in every aspect of your everyday life. Our fleet boasts cars with spacious interiors, perfect for those spontaneous road trips, and is equipped with cutting-edge safety features for those unexpected weather changes. Every detail of our vehicles has been thoughtfully selected and meticulously tested in real-life conditions, ensuring that they are not just ready for the road, but also primed for adventure.</p>
                 <p>At Royal Drive, we understand that a car is more than just a mode of transportation; it's a part of your daily narrative. Whether navigating the routine of a daily commute or embarking on a leisurely weekend escape, our fleet is designed to make every trip smooth and enjoyable. Our commitment is to provide not just a vehicle, but a reliable and luxurious companion for all your journeys. Trust Royal Drive to deliver an unparalleled driving experience, every time you turn the key.</p>
             </div>
         </div>

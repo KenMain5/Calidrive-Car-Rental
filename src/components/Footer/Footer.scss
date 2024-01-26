@@ -11,6 +11,12 @@
       flex-direction: column;
   }
 
+.footerPanel__contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 
 .footerPanel {
   flex: 25%;
@@ -58,11 +64,6 @@
   }
 }
 
-
-
-
-  
-
 @media (min-width:650px) {
   .footer__container__1, 
   .footer__container__2 {
@@ -71,13 +72,6 @@
 }
 
 @media (min-width: 1100px) {
-  // .footer__container__1, 
-  // .footer__container__2 {
-  //     justify-content: initial;
-  // }
-
-
-
   .footer__container {
       display: flex; 
       flex-direction: row;
@@ -88,8 +82,6 @@
       margin-bottom: 3rem;
   }
 
-  
-    
   .userEmail {
       width: 100%;
       border: none;
@@ -100,29 +92,3 @@
       margin-right: 1rem;
   }
 }
-
-
-
-
-// @media (min-width: 1033px) {
-
-//   .footer__contactInfo {
-//     display: flex;
-//     align-items: center;
-//   }
-
-
-//   .footer__contactInfo img {
-//     width: 1.2rem;
-//     height: auto;
-//     margin-right: .7rem;
-//     margin-bottom: .6rem;
-//   }
-
-
-
-//   .footer__contactInfo h5{
-//     font-size: 1rem;
-//     font-weight: 600;
-//   }
-//   }

@@ -32,7 +32,6 @@ const Navbar = () => {
                         <Link to="/about">About</Link>
                         <Link to="/careers">Careers</Link>
                      
-                        <Link to="/">Our Team</Link>
                         <Link to="/contact">Contact</Link>
                         <Link to="/login">Sign In</Link>
                         <Link to="/register">Register</Link>
@@ -42,7 +41,6 @@ const Navbar = () => {
                         <Link to="/">Home</Link>
                         <Link to="/about">About</Link>
                         <Link to="/careers">Careers</Link>
-                        <Link to="/">Our Team</Link>
                         <Link to="/contact">Contact</Link>
                     </div>
 

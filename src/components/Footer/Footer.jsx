@@ -1,5 +1,8 @@
 import './Footer.scss'
-import '/src/global.scss'
+
+
+
+
 
 function Footer() {
   return (
@@ -13,12 +16,8 @@ function Footer() {
                         We offer a big range of vehicles for all of your driving needs. We
                         have the perfect cars to meet your needs
                         </p>
-                        <div>
-                            <img src="/images/icons/aaaa.svg" alt="" />
-                            <h5>(210)-3456-789</h5>
-                        </div>
-                        <div>
-                            <img src="/images/icons/bbbb.svg" alt="" />
+                        <div className='footerPanel__contacts'>
+                            <h5>(210)-3456-789</h5> 
                             <h5>carrental@gmail.com</h5>
                         </div>
                     </div>
