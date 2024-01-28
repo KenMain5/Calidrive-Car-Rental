@@ -1,4 +1,8 @@
-<h1>About</h1>
+<h1 align='center'>
+  RoyalDrive Car Rental
+</h1>
+
+<h2>Description</h2>
 
 Royal Drive is a sophisticated web application for luxury car rentals, designed with React and SCSS. Our platform features an array of premium vehicles, complete with detailed descriptions and a user-friendly interface. 
 
@@ -7,19 +11,28 @@ Royal Drive is a sophisticated web application for luxury car rentals, designed 
 
 
 Beyond just a landing page, it includes several sections like careers, about us, contact, and user account management. 
+  
+<img height="300px" src="src/assets/readMeDoc/otherpages.gif"></img>
 
 
+The application also have a mobile-responsive design highlights the seamless user interface and functionality on smaller screens.
+  
+<img height="300px" src="src/assets/readMeDoc/mobile.gif"></img>
+
+## Installation
+<a id='install'></a>
+
+1. Clone the repo
+```
+git clone https://github.com/KenMain5/Calidrive-Car-Rental.git
+```
+2. Install NPM packages
+```
+npm install
+```
+3. Run the application
+```
+npm start
+```
 
 
-
-
-
-
-
-# React + Vite
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
