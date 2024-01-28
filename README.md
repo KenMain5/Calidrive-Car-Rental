@@ -1,6 +1,19 @@
-About
+<h1>About</h1>
 
-Royal Drive is a sophisticated web application for luxury car rentals, designed with React and SCSS. Our platform features an array of premium vehicles, complete with detailed descriptions and a user-friendly interface. Beyond just a landing page, it includes several sections like careers, about us, contact, and user account management. We're also enhancing its capabilities with an Express-based backend, introducing features such as a streamlined reservation system and personalized recommendations. Royal Drive seamlessly combines luxury with cutting-edge technology to provide an exceptional rental experience.
+Royal Drive is a sophisticated web application for luxury car rentals, designed with React and SCSS. Our platform features an array of premium vehicles, complete with detailed descriptions and a user-friendly interface. 
+
+<h2>Landing Page</h2>
+<img height="300px" src="src/assets/readMeDoc/MainPage.gif"></img>
+
+
+Beyond just a landing page, it includes several sections like careers, about us, contact, and user account management. 
+
+
+
+
+
+
+
 
 
 # React + Vite
